@@ -1,0 +1,12 @@
+# static files
+static/css
+static/js
+static/images
+static/fonts
+
+# dependecies
+yarn.lock
+node_modules/
+
+# OS files
+.DS_STORE

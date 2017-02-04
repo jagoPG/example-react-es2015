@@ -1,0 +1,21 @@
+@font-face {
+    font-family: OpenBaskerville;
+    src: url("../fonts/OpenBaskerville-0.0.53.otf") format("opentype");
+}
+
+.container {
+    text-align: center;
+    border: #200 1px solid;
+    padding: 5px 10px;
+
+    p {
+        font-family: OpenBaskerville; 
+        font-weight: normal; 
+        font-style: normal; 
+    }
+}
+
+.container__icon {
+    width: 64px;
+    height:64px;
+}
