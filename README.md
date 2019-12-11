@@ -11,27 +11,27 @@ Change the directories of the `paths` object to fit to your working tree.
 ## EXECUTION
 Install required software:
 
-```
-$ brew install yarn
-$ yarn install
+```bash
+brew install npm
+npm install
 ```
 
 Traspile, minify, copy files, compress images...:
 
-```
-$ gulp
+```bash
+npm run build
 ```
 
 For refreshing files when writing code:
 
-```
-$ gulp watch
+```bash
+npm run build:watch
 ```
 
 For preparing the project for being deployed:
 
 ```
-$ gulp prod
+npm run build:prod
 ```
 
 ## AUTHOR
