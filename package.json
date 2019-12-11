@@ -7,6 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "fetch": "^1.1.0",
+    "gulp-replace": "^1.0.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
   },
@@ -25,8 +26,14 @@
     "gulp-scss-lint": "^0.4.0",
     "gulp-uglify": "^2.0.1",
     "gulp-uglifycss": "^1.0.6",
+    "rollup-plugin-replace": "^2.2.0",
     "source": "^0.0.3",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
+  },
+  "scripts": {
+    "build": "node_modules/gulp/bin/gulp.js",
+    "build:prod": "node_modules/gulp/bin/gulp.js prod",
+    "build:watch": "node_modules/gulp/bin/gulp.js watch"
   }
 }
